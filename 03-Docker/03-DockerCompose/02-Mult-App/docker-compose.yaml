@@ -10,6 +10,6 @@ petclinic-webapp:
     - '8080'
 
 myapache:
-  image: myappache:v4 
+  image: myapache:v4 
   ports:
     - '80'
