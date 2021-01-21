@@ -1,0 +1,6 @@
+[tomcat]
+10.0.0.4
+
+[tomcat:vars]
+ansible_ssh_user=devopsadmin
+ansible_ssh_pass=Masterpiece12$

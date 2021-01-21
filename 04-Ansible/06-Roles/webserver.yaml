@@ -1,0 +1,7 @@
+---
+
+- hosts: tomcat
+  name: Web Server Installation
+  become: yes
+  roles:
+  - webserver
