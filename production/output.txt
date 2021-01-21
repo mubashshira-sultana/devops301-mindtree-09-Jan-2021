@@ -1,0 +1,39 @@
+Running from: /root/jenkins.war
+webroot: $user.home/.jenkins
+2021-01-21 14:20:55.313+0000 [id=1]	INFO	org.eclipse.jetty.util.log.Log#initialized: Logging initialized @4015ms to org.eclipse.jetty.util.log.JavaUtilLog
+2021-01-21 14:20:55.746+0000 [id=1]	INFO	winstone.Logger#logInternal: Beginning extraction from war file
+2021-01-21 14:20:55.931+0000 [id=1]	WARNING	o.e.j.s.handler.ContextHandler#setContextPath: Empty contextPath
+2021-01-21 14:20:56.116+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: jetty-9.4.30.v20200611; built: 2020-06-11T12:34:51.929Z; git: 271836e4c1f4612f12b7bb13ef5a92a927634b0d; jvm 1.8.0_275-8u275-b01-0ubuntu1~16.04-b01
+2021-01-21 14:20:59.822+0000 [id=1]	INFO	o.e.j.w.StandardDescriptorProcessor#visitServlet: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2021-01-21 14:21:00.020+0000 [id=1]	INFO	o.e.j.s.s.DefaultSessionIdManager#doStart: DefaultSessionIdManager workerName=node0
+2021-01-21 14:21:00.020+0000 [id=1]	INFO	o.e.j.s.s.DefaultSessionIdManager#doStart: No SessionScavenger set, using defaults
+2021-01-21 14:21:00.023+0000 [id=1]	INFO	o.e.j.server.session.HouseKeeper#startScavenging: node0 Scavenging every 660000ms
+2021-01-21 14:21:02.089+0000 [id=1]	INFO	hudson.WebAppMain#contextInitialized: Jenkins home directory: /root/.jenkins found at: $user.home/.jenkins
+2021-01-21 14:21:02.495+0000 [id=1]	INFO	o.e.j.s.handler.ContextHandler#doStart: Started w.@2eea88a1{Jenkins v2.249.2,/,file:///root/.jenkins/war/,AVAILABLE}{/root/.jenkins/war}
+2021-01-21 14:21:02.553+0000 [id=1]	INFO	o.e.j.server.AbstractConnector#doStart: Started ServerConnector@50f8360d{HTTP/1.1, (http/1.1)}{0.0.0.0:9090}
+2021-01-21 14:21:02.554+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: Started @11257ms
+2021-01-21 14:21:02.554+0000 [id=20]	INFO	winstone.Logger#logInternal: Winstone Servlet Engine running: controlPort=disabled
+2021-01-21 14:21:04.962+0000 [id=27]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+2021-01-21 14:21:14.847+0000 [id=29]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+2021-01-21 14:21:21.737+0000 [id=28]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+2021-01-21 14:21:21.756+0000 [id=29]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+2021-01-21 14:21:24.116+0000 [id=29]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+2021-01-21 14:21:24.194+0000 [id=28]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+2021-01-21 14:21:24.358+0000 [id=29]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+2021-01-21 14:21:24.712+0000 [id=27]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+2021-01-21 14:21:24.715+0000 [id=27]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+2021-01-21 14:21:24.861+0000 [id=42]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Started Download metadata
+2021-01-21 14:21:24.864+0000 [id=42]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Finished Download metadata. 2 ms
+2021-01-21 14:21:25.296+0000 [id=28]	INFO	o.s.c.s.AbstractApplicationContext#prepareRefresh: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@4eaaa4fb: display name [Root WebApplicationContext]; startup date [Thu Jan 21 14:21:25 UTC 2021]; root of context hierarchy
+2021-01-21 14:21:25.296+0000 [id=28]	INFO	o.s.c.s.AbstractApplicationContext#obtainFreshBeanFactory: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@4eaaa4fb]: org.springframework.beans.factory.support.DefaultListableBeanFactory@20539eab
+2021-01-21 14:21:25.307+0000 [id=28]	INFO	o.s.b.f.s.DefaultListableBeanFactory#preInstantiateSingletons: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@20539eab: defining beans [authenticationManager]; root of factory hierarchy
+2021-01-21 14:21:25.484+0000 [id=28]	INFO	o.s.c.s.AbstractApplicationContext#prepareRefresh: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@67e1f807: display name [Root WebApplicationContext]; startup date [Thu Jan 21 14:21:25 UTC 2021]; root of context hierarchy
+2021-01-21 14:21:25.484+0000 [id=28]	INFO	o.s.c.s.AbstractApplicationContext#obtainFreshBeanFactory: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@67e1f807]: org.springframework.beans.factory.support.DefaultListableBeanFactory@7d2045d5
+2021-01-21 14:21:25.485+0000 [id=28]	INFO	o.s.b.f.s.DefaultListableBeanFactory#preInstantiateSingletons: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7d2045d5: defining beans [filter,legacy]; root of factory hierarchy
+2021-01-21 14:21:25.569+0000 [id=29]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+2021-01-21 14:21:25.635+0000 [id=19]	INFO	hudson.WebAppMain$3#run: Jenkins is fully up and running
+2021-01-21 14:30:01.487+0000 [id=59]	INFO	h.triggers.SCMTrigger$Runner#run: SCM changes detected in Petclinic-MVN. Triggering  #8
+2021-01-21 14:30:47.063+0000 [id=115]	WARNING	o.j.r.u.AnonymousClassWarnings#warn: Attempt to (de-)serialize anonymous class org.jfrog.hudson.maven2.MavenDependenciesRecorder$1 in file:/root/.jenkins/plugins/artifactory/WEB-INF/lib/artifactory.jar; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/
+2021-01-21 14:47:13.372+0000 [id=209]	INFO	o.j.p.workflow.job.WorkflowRun#finish: Petclinic-Pipeline-as-code #2 completed: SUCCESS
+2021-01-21 14:51:52.053+0000 [id=295]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Started Periodic background build discarder
+2021-01-21 14:51:52.054+0000 [id=295]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Finished Periodic background build discarder. 1 ms
