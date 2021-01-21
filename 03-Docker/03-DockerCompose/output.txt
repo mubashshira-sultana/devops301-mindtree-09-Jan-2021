@@ -1,0 +1,45 @@
+Running from: /root/jenkins.war
+webroot: $user.home/.jenkins
+2021-01-19 17:13:18.561+0000 [id=1]	INFO	org.eclipse.jetty.util.log.Log#initialized: Logging initialized @2945ms to org.eclipse.jetty.util.log.JavaUtilLog
+2021-01-19 17:13:18.970+0000 [id=1]	INFO	winstone.Logger#logInternal: Beginning extraction from war file
+2021-01-19 17:13:19.176+0000 [id=1]	WARNING	o.e.j.s.handler.ContextHandler#setContextPath: Empty contextPath
+2021-01-19 17:13:19.278+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: jetty-9.4.30.v20200611; built: 2020-06-11T12:34:51.929Z; git: 271836e4c1f4612f12b7bb13ef5a92a927634b0d; jvm 1.8.0_275-8u275-b01-0ubuntu1~16.04-b01
+2021-01-19 17:13:21.495+0000 [id=1]	INFO	o.e.j.w.StandardDescriptorProcessor#visitServlet: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2021-01-19 17:13:21.749+0000 [id=1]	INFO	o.e.j.s.s.DefaultSessionIdManager#doStart: DefaultSessionIdManager workerName=node0
+2021-01-19 17:13:21.750+0000 [id=1]	INFO	o.e.j.s.s.DefaultSessionIdManager#doStart: No SessionScavenger set, using defaults
+2021-01-19 17:13:21.756+0000 [id=1]	INFO	o.e.j.server.session.HouseKeeper#startScavenging: node0 Scavenging every 660000ms
+2021-01-19 17:13:23.293+0000 [id=1]	INFO	hudson.WebAppMain#contextInitialized: Jenkins home directory: /root/.jenkins found at: $user.home/.jenkins
+2021-01-19 17:13:24.081+0000 [id=1]	INFO	o.e.j.s.handler.ContextHandler#doStart: Started w.@2eea88a1{Jenkins v2.249.2,/,file:///root/.jenkins/war/,AVAILABLE}{/root/.jenkins/war}
+2021-01-19 17:13:24.170+0000 [id=1]	INFO	o.e.j.server.AbstractConnector#doStart: Started ServerConnector@50f8360d{HTTP/1.1, (http/1.1)}{0.0.0.0:9090}
+2021-01-19 17:13:24.172+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: Started @8556ms
+2021-01-19 17:13:24.172+0000 [id=20]	INFO	winstone.Logger#logInternal: Winstone Servlet Engine running: controlPort=disabled
+2021-01-19 17:13:26.179+0000 [id=26]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+2021-01-19 17:13:34.609+0000 [id=26]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+2021-01-19 17:13:41.867+0000 [id=28]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+2021-01-19 17:13:41.888+0000 [id=25]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+2021-01-19 17:13:44.207+0000 [id=26]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+2021-01-19 17:13:44.313+0000 [id=25]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+2021-01-19 17:13:44.474+0000 [id=28]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+2021-01-19 17:13:44.988+0000 [id=28]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+2021-01-19 17:13:44.992+0000 [id=27]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+2021-01-19 17:13:45.093+0000 [id=42]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Started Download metadata
+2021-01-19 17:13:45.137+0000 [id=42]	INFO	hudson.util.Retrier#start: Attempt #1 to do the action check updates server
+2021-01-19 17:13:45.899+0000 [id=26]	INFO	o.s.c.s.AbstractApplicationContext#prepareRefresh: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@596fef18: display name [Root WebApplicationContext]; startup date [Tue Jan 19 17:13:45 UTC 2021]; root of context hierarchy
+2021-01-19 17:13:45.899+0000 [id=26]	INFO	o.s.c.s.AbstractApplicationContext#obtainFreshBeanFactory: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@596fef18]: org.springframework.beans.factory.support.DefaultListableBeanFactory@6722e7d9
+2021-01-19 17:13:45.928+0000 [id=26]	INFO	o.s.b.f.s.DefaultListableBeanFactory#preInstantiateSingletons: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6722e7d9: defining beans [authenticationManager]; root of factory hierarchy
+2021-01-19 17:13:46.285+0000 [id=26]	INFO	o.s.c.s.AbstractApplicationContext#prepareRefresh: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@d11f14d: display name [Root WebApplicationContext]; startup date [Tue Jan 19 17:13:46 UTC 2021]; root of context hierarchy
+2021-01-19 17:13:46.285+0000 [id=26]	INFO	o.s.c.s.AbstractApplicationContext#obtainFreshBeanFactory: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@d11f14d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@7c88d53f
+2021-01-19 17:13:46.286+0000 [id=26]	INFO	o.s.b.f.s.DefaultListableBeanFactory#preInstantiateSingletons: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7c88d53f: defining beans [filter,legacy]; root of factory hierarchy
+2021-01-19 17:13:46.492+0000 [id=26]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+2021-01-19 17:13:46.706+0000 [id=19]	INFO	hudson.WebAppMain$3#run: Jenkins is fully up and running
+2021-01-19 17:13:50.534+0000 [id=42]	INFO	h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+2021-01-19 17:13:50.594+0000 [id=42]	INFO	h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+2021-01-19 17:13:50.675+0000 [id=42]	INFO	h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.plugins.gradle.GradleInstaller
+2021-01-19 17:13:51.021+0000 [id=42]	INFO	h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.tools.JDKInstaller
+2021-01-19 17:13:51.021+0000 [id=42]	INFO	hudson.util.Retrier#start: Performed the action check updates server successfully at the attempt #1
+2021-01-19 17:13:51.024+0000 [id=42]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Finished Download metadata. 5,916 ms
+2021-01-19 17:20:01.707+0000 [id=61]	INFO	h.triggers.SCMTrigger$Runner#run: SCM changes detected in Petclinic-MVN. Triggering  #5
+2021-01-19 17:35:55.857+0000 [id=140]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Started Fingerprint cleanup
+2021-01-19 17:35:56.012+0000 [id=140]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Finished Fingerprint cleanup. 154 ms
+2021-01-19 17:41:53.777+0000 [id=151]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Started Periodic background build discarder
+2021-01-19 17:41:53.779+0000 [id=151]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Finished Periodic background build discarder. 1 ms

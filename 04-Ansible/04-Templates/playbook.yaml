@@ -1,0 +1,20 @@
+---
+
+- hosts: web
+  name: Web Server Installation
+  become: yes
+  tasks:
+  - name: Installing Apache2 Packages
+    apt: name=apache2 state=present
+
+  - name: Start Apache2 Service
+    service: name=apache2 state=started
+
+  - name: Disable Firewall
+    service: name=ufw state=stopped enabled=False
+
+  - name: Deploy custom web page
+    copy: src=files/index.html dest=/var/www/html/
+
+  - name: Deploy custom info page
+    template: src=templates/info.j2 dest=/var/www/html/info.html
